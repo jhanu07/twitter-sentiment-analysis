@@ -8,6 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import joblib
 
+
 ROOT = Path(__file__).parent
 DATA_PATH = ROOT / "data" / "sample_tweets.csv"
 MODEL_DIR = ROOT / "models"
